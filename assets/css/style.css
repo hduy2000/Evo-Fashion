@@ -1,0 +1,101 @@
+/* Header */
+
+.header {
+    background-color: #e5e5ed6e;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    margin: 3px 0;
+}
+
+
+/* header-policy */
+
+.evo-header-policy {}
+
+.evo-header-policy-title {}
+
+.discount a {
+    color: #333f48;
+    font-size: 13px;
+}
+
+.discount a:hover {
+    text-decoration: none;
+    color: #af1713;
+}
+
+
+/* header-logo */
+
+.logo {}
+
+.logo-wrapper {}
+
+.logo-wrapper-resoponsive {
+    max-width: 200px;
+}
+
+
+/* On laptop and tablet */
+
+@media screen and (min-width: 992px) {
+    .logo-wrapper-resoponsive {
+        max-width: 250px;
+    }
+}
+
+
+/* header-right */
+
+.header-hotline-cart {
+    text-align: right;
+    display: flex;
+    justify-content: space-around;
+    height: 42px;
+    align-items: center;
+    position: static;
+}
+
+.hotline {
+    display: flex;
+    align-items: center;
+}
+
+.header-hotline-cart .page-support {
+    text-align: left;
+    line-height: 1.1;
+}
+
+.hotline-phone {
+    font-size: 16px;
+    display: block;
+    font-weight: bold;
+    color: black;
+    line-height: 1.1;
+}
+
+.hotline-title {
+    font-size: 12px;
+    font-weight: 400;
+    color: #333;
+    line-height: 1.1;
+}
+
+.hotline-phone:hover {
+    color: #af1713;
+}
+
+
+/* Acount */
+
+.header-hotline-cart .account ul {
+    display: none;
+}
+
+.account .img-responsive {
+    width: 25px;
+}
