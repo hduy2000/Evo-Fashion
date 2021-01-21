@@ -57,10 +57,10 @@
 }
 
 .title_news {
-    font-size: 15px;
+    font-size: 14px;
     margin-top: 10px;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 550;
     color: #1c1c1c;
     display: -webkit-box;
     -webkit-line-clamp: 2;
@@ -135,7 +135,7 @@
 
 .svg_item_info_text {
     text-align: center;
-    font-weight: 500;
+    font-weight: 550;
     font-size: 14px;
     margin: 10px;
     text-transform: uppercase;
