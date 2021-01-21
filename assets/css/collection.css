@@ -1,0 +1,110 @@
+.collection {
+    background-image: url(../img/evo_banner_collection.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.collection__text {
+    text-align: center;
+    padding: 10px;
+}
+
+.collection__text-1 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.collection__text-2 {
+    margin-top: 15px;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.collection__text-3 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.collection__text-btn {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 15px;
+    margin: auto;
+    background-color: #af1713;
+    padding: 9px 10px;
+    max-width: 116px;
+    margin-top: 20px;
+}
+
+.collection__text-btn:hover {
+    cursor: pointer;
+    background-color: #000000;
+}
+
+.collection__img {
+    display: flex;
+    padding: 0 20px;
+    padding-bottom: 40px;
+    justify-content: center;
+    background-color: #ffffff;
+    width: 100%;
+    margin-top: 10px;
+    box-shadow: 0 5px 5px #d6d6d6;
+}
+
+.collection__img-card {
+    margin-top: 30px;
+}
+
+.collection__img-card:hover > .card-text > a {
+    color: #af1713;
+}
+
+.collection__img-card:hover > .card-text > .content_text::after {
+    background-color: #af1713;
+    width: 100%;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card-img:hover {
+    cursor: pointer;
+}
+
+.card-img > img{
+    width: 100%;
+}
+
+.card-text {
+    font-size: 28px;
+    margin-top: 25px;
+}
+
+.content_text {
+    color: #000000;
+    position: relative;
+    width: 100%;
+}
+
+.content_text:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.content_text::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    width: 50%;
+    height: 2px;
+    background-color: #000000;
+    transition: .3s;
+}
